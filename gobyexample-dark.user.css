@@ -1,0 +1,78 @@
+/* ==UserStyle==
+@name           GoByExample-Dark
+@namespace      github.com/d-Rickyy-b
+@version        1.0.0
+@description    A dark theme for the "Go By Example" introduction for the Go programming language 
+@homepageURL    https://github.com/d-Rickyy-b/GoByExample-Dark
+@updateURL      https://raw.githubusercontent.com/d-Rickyy-b/GoByExample-Dark/main/gobyexample-dark.user.css
+@license        MIT
+@author         d-Rickyy-b
+==/UserStyle== */
+
+@-moz-document domain("gobyexample.com") {
+    pre {
+        color: #c9d1d9;
+    }
+
+    body,
+    td.code.empty {
+        background-color: #1a1f25;
+        color: #c9d1d9;
+    }
+
+    h2 a {
+        color: #B7C2CC;
+    }
+
+    h2 a:visited {
+        color: #A0AEBB;
+    }
+
+    a {
+    color: #548BE1;
+    }
+
+    a:visited {
+        color: #1F55AD;
+    }
+
+    td.code {
+        background: #1f2c36;
+    }
+
+    span.s {
+        color: #ce9178;
+    }
+
+    span.kd,
+    span.kn,
+    span.kt,
+    span.k,
+    span.gp {
+        color: #548BE1;
+    }
+
+    span.nf,
+    span.nx{
+        color: #9cdcfe;
+    }
+
+    span.p {
+        color: #c9d1d9;
+    }
+
+    span.kc,
+    span.nb {
+        color: #dcdcaa;
+    }
+
+    span.mi {
+        color: #b5cea8;
+    }
+
+    /* := */
+    span.o,
+    body.o {
+        color: #d4d4d4;
+    }
+}
